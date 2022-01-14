@@ -1,5 +1,7 @@
 # opengl-snakegame
-A simple 2d snake game made using opengl in c++
+A simple 2d snake game made using opengl in c++. This version is a porting from OpenGL 2.0 to OpenGL 4.0 of the original forked version.
+This game was realized for the course "Fondamenti di Computer Graphics M" held by professor Serena Morigi at the University of Bologna.
+
 ## Demo
 ![sample1](media/sample1.gif)
 
@@ -11,15 +13,17 @@ A simple 2d snake game made using opengl in c++
 * A - To go left
 * S - To go down
 * D - To go right
+* Esc or Q - To Exit
+
+## Keyboard Controls currently not available
 * M - To change difficulty
 * H - For help
 * +/- - To change map size
-* Esc or Q - To Exit
 
 ## Compilation and Execution
 To Compile
 ```
-g++ snakeGame.cpp -lglut -lGL -lGLEW -lGLU -o game
+g++ Snake.cpp ShaderMaker.cpp -lglut -lGL -lGLEW -lGLU -o Snake
 ```
 To run
 ```

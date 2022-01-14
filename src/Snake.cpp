@@ -1,3 +1,10 @@
+/*
+ * Snake.cpp
+ *   Author: Lorenzo Rinieri
+ *   Last Update: 14/01/2022
+ *   Version: 1.0
+ */
+
 #include <iostream>
 #include "ShaderMaker.h"
 #include <GL/glew.h>
